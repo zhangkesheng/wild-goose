@@ -3,7 +3,6 @@ package com.qs.config;
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ConsumerConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
-import com.alibaba.dubbo.config.spring.context.annotation.DubboComponentScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
  * @time 2019/1/22 7:30
  */
 @Configuration
-@DubboComponentScan(basePackages = "com.qs.service")
 public class DubboConsumerConfig {
 
     @Bean
